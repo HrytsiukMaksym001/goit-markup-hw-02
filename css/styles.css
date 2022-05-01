@@ -1,0 +1,73 @@
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.06em;
+    background-color: #E5E5E5;
+    color: #212121;
+    font-size: 16px;
+    line-height: 2;
+    }
+    .logo-navigation {
+        text-decoration: none;
+    }
+
+:root{
+    --header-bg-color: #FFFFFF;
+    --herofooter-bg-color: #2F303A;
+    --body-bg-color: #E5E5E5;
+    --team-bg-secondhead: #F5F4FA;
+
+    --web-link-color: #2196F3;
+    --darkmain-color:#000000;
+
+    --text-main-color: #212121;
+    --text-cecond-color: #757575;
+
+
+
+/*navigation*/
+
+
+/*header*/
+.header {
+background-color: var(--header-bg-color);
+}
+/*Hero*/
+.hero{
+background-color: var(--herofooter-bg-color);
+}
+/*Team*/
+.team{
+background-color: var(--team-bg-secondhead) 
+}
+
+
+.hero .title-hero{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+color: var(--header-bg-color);
+text-align: center;
+}
+
+.logo-navigation {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--web-link-color);
+}
+.header-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--darkmain-color);
+}
+
+
+
+
